@@ -1,6 +1,9 @@
 import pickle
 import streamlit as st
+import os
 
+# Ensure scikit-learn is installed
+os.system("pip install scikit-learn")
 
 # loading the trained model
 pickle_in = open('classifier.pkl', 'rb') 
